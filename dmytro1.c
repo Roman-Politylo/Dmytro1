@@ -5,8 +5,6 @@ int main(void){
     printf("Enter single character: ");
     scanf("%c", &character);
 
-    // printf("Char: %c, int: %d\n", character, character);
-
     if (character >= 'a' && character <= 'z'){
         printf("This is mall letter.\n");
     }
